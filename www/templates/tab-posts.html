@@ -1,0 +1,9 @@
+<ion-view view-title="Posts">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="post in posts" href="#/tab/posts/{{post.id}}">
+        <h3>{{post.title}}</h3>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
